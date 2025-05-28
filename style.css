@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+a {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: red;
+}
+
+i {
+  margin-right: 8px;
+}
+
+#contato a[href*="linkedin.com"] {
+  color: #0e76a8;
+}
+
+#contato a[href*="linkedin.com"]:hover {
+  color: #005582;
+}
+
+#contato a[href*="github.com"] {
+  color: #333;
+}
+
+#contato a[href*="github.com"]:hover {
+  color: #6cc644;
+}
+
+#sobre {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#sobre h2 {
+  margin-bottom: 10px;
+}
+
+#sobre p {
+  text-align: justify;
+  line-height: 1.6; /* aumenta o espaço entre linhas para melhor leitura */
+}
